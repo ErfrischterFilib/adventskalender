@@ -49865,9 +49865,10 @@ x9DaWrOq+ory4QW8Xu+qpuSKCXvoIQ0Pu6/V3WuN7z+//wGLztRGd+qgaQAAAABJRU5ErkJggg==
 "
        id="bg"
        inkscape:svg-dpi="1" />
+
     <rect
        style="opacity:0;fill:#808000;fill-opacity:0.60076"
-       id="num1"
+       id="1"
        width="73.58165"
        height="52.19585"
        x="36.972061"
@@ -49875,10 +49876,10 @@ x9DaWrOq+ory4QW8Xu+qpuSKCXvoIQ0Pu6/V3WuN7z+//wGLztRGd+qgaQAAAABJRU5ErkJggg==
        inkscape:label="num1"
        onmouseover="this.style.opacity=1"
        onmouseout="this.style.opacity=0"
-       onclick="test(1)" />
+    />
     <rect
        style="opacity:0;fill:#808000;fill-opacity:0.6"
-       id="rect178"
+       id="2"
        width="102.94183"
        height="64.882332"
        x="137.73906"
@@ -49886,11 +49887,7 @@ x9DaWrOq+ory4QW8Xu+qpuSKCXvoIQ0Pu6/V3WuN7z+//wGLztRGd+qgaQAAAABJRU5ErkJggg==
        inkscape:label="num2"
        onmouseout="this.style.opacity=0"
        onmouseover="this.style.opacity=1"
-       onclick="test(2)" />
+    />
   </g>
-      <script type="text/javascript">
-      function test(number) {
-        alert('Du hast ' + number + ' geklickt!')
-      }
-      </script>
+
 </svg>

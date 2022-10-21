@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Adventskalender</title>
-    <script>
-        function test(number) {
-            alert('Du hast ' + number + ' geklickt!')
-        }
-    </script>
+
 </head>
 <body>
-    <div class="bodycontainer">
-        <div>
-            <h2 align="center">Adventskalender</h2>
-        </div>
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe src="assets/views/days/modalContent.html" title="2. Dezember" class="dayFrame" id="iframe"></iframe>
+    </div>
+</div>
+    <div class="bodyContainer">
         <div class="backgroundcontainer">
-            <object class="backgroundimage" data="assets/images/bg.svg" alt="Background" type="image/svg+xml"/></object>
+            <object id="background" class="backgroundimage" data="assets/images/bg.svg" type="image/svg+xml"></object>
         </div>
     </div>
+<script type="text/javascript" src="./assets/js/text.js"></script>
+<script type="text/javascript" src="./assets/js/base.js"></script>
 </body>
 </html>
