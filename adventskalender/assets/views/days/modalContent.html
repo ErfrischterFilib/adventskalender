@@ -2,19 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./../../styles/style.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="./../../styles/style.css" rel="stylesheet">
     <title>Adventskalender</title>
 </head>
-<body>
-<div class="modalframe">
-<h3><span id="dayToday"></span>. Dezember</h3>
-    <div class="gifContainer" id="gifContainer">
-        <img src="" class="dayGif" id="dayGif" alt="Bild konnte nicht geladen werden"/>
+<body style="overflow: hidden;">
+<div class="modal-header">
+    <div class="modal-header-left">
+
     </div>
-<div class="storyContainer">
-    <p class="storyText" id="storyText">
-    </p>
+    <h2 class="modal-header-center"><a><-- </a><span id="dayToday"></span>. Dezember <a>--></a></h2>
+    <div class="modal-header-right">
+
+    </div>
+
 </div>
+<div class="iframe-content">
+
+    <div class="gifContainer" id="gifContainer">
+        <img alt="Bild konnte nicht geladen werden" class="dayGif" id="dayGif" src="../../images/gifs/1.gif"/>
     </div>
+    <div class="storyContainer">
+        <p class="storyText" id="storyText">
+            Lorem ipsum dolor sit amet, consectetur adip<br>
+            Lorem ipsum dolor sit amet, consectetur adip<br>
+            Lorem ipsum dolor sit amet, consectetur adip<br>
+            Lorem ipsum dolor sit amet, consectetur adip
+        </p>
+        <div class="button-container">
+            <a class="spenden-button" href="#">SPENDEN</a>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
