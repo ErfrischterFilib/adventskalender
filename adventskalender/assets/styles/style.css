@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: Roboto, sans-serif;
+    color: #990011FF;
 }
 
 h2 {
@@ -12,11 +13,6 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-.storyText {
     font-size: 1.2rem;
     text-align: center;
 }
@@ -51,7 +47,7 @@ h3 {
     display: flex;
     -webkit-box-pack: center;
     background-image: url("https://assets.website-files.com/5dd94576cd7d375c4918929e/5dd97d6e05da58df649a4b5e_Pfeil_svg.svg"), linear-gradient(90deg, #d81130, #d81130 15%, #970000);
-    background-position: 90% 50%, 0px 0px;
+    background-position: 90% 50%, 0 0;
     background-size: 10px, auto;
     background-repeat: no-repeat, repeat;
     color: #fff;
@@ -63,14 +59,14 @@ h3 {
     outline: 0;
     transform: translate(0px, 0px);
     background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.2), hsla(0, 0%, 100%, 0.2)), url("https://assets.website-files.com/5dd94576cd7d375c4918929e/5dd97d6e05da58df649a4b5e_Pfeil_svg.svg"), linear-gradient(135deg, #d81130, #d81130 15%, #970000);
-    background-position: 0px 0px, 90% 50%, 0px 0px;
+    background-position: 0 0, 90% 50%, 0 0;
     background-size: auto, 10px, auto;
     background-repeat: repeat, no-repeat, repeat;
     color: #fff;
 }
 
 .modal {
-    display: none;
+    display: block;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -107,8 +103,8 @@ h3 {
 .modal-header {
     display: grid;
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     width: 100%;
 }
 
@@ -126,7 +122,7 @@ h3 {
 
 @media screen and (min-width: 768px) {
     .modal-content {
-        background-color: #fefefe;
+        background-color: #FCF6F5FF;
         margin: 5% auto;
         padding: 20px;
         width: 80%;
@@ -145,6 +141,10 @@ h3 {
         grid-area: 1 / 2 / 2 / 3;
         max-height: 70%;
         max-width: 100%;
+    }
+
+    .storyText {
+        font-size: 2rem;
     }
 
     .gifContainer {
@@ -195,6 +195,10 @@ h3 {
         max-width: 100%;
     }
 
+    .storyText {
+        font-size: 0.8rem;
+    }
+
     .button-container {
         width: 90%;
         z-index: 999999;
@@ -211,8 +215,8 @@ h3 {
 
 .iframe-content {
     display: grid;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
 }
 
 .dayGif {
