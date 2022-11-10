@@ -7,11 +7,6 @@ body {
     color: #990011FF;
 }
 
-h2 {
-    font-size: 2rem;
-    text-align: center;
-}
-
 h3 {
     font-size: 1.2rem;
     text-align: center;
@@ -66,7 +61,7 @@ h3 {
 }
 
 .modal {
-    display: block;
+    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -104,10 +99,10 @@ h3 {
 @media screen and (min-width: 768px) {
     .modal-content {
         background-color: #FCF6F5FF;
-        margin: 5% auto;
+        margin: 2% auto;
         padding: 20px;
         width: 80%;
-        height: 75%;
+        height: 70%;
         border-radius: 6px;
 
     }
@@ -152,6 +147,11 @@ h3 {
         margin-right: 32px;
     }
 
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -160,7 +160,7 @@ h3 {
         margin: 5% auto;
         padding: 10px;
         width: 80%;
-        height: 85%;
+        height: 65%;
         border-radius: 6px;
 
     }
@@ -197,9 +197,14 @@ h3 {
     }
 
     .arrow {
-        height: 32px;
-        margin-left: 8px;
-        margin-right: 8px;
+        height: 24px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
     }
 }
 

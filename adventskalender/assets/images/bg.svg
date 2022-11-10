@@ -49888,6 +49888,17 @@ x9DaWrOq+ory4QW8Xu+qpuSKCXvoIQ0Pu6/V3WuN7z+//wGLztRGd+qgaQAAAABJRU5ErkJggg==
        onmouseout="this.style.opacity=0"
        onmouseover="this.style.opacity=1"
     />
+    <rect
+       style="opacity:0;fill:#808000;fill-opacity:0.6"
+       id="3"
+       width="102.94183"
+       height="64.882332"
+       x="237.73906"
+       y="298.67627"
+       inkscape:label="num2"
+       onmouseout="this.style.opacity=0"
+       onmouseover="this.style.opacity=1"
+    />
   </g>
 
 </svg>
