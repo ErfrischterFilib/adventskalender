@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="./../../styles/style.css" rel="stylesheet">
+
     <title>Adventskalender</title>
 </head>
 <body style="overflow: hidden;">
 <div class="modal-header">
-    <div class="modal-header-left">
-        <img alt="links" class="arrow" src="./../../images/left.png">
-    </div>
-
-    <h2 class="modal-header-center">
-        <span id="dayToday"></span>. Dezember</h2>
-    <div class="modal-header-right">
-
-    </div>
+    <h2>
+        <img alt="links" class="arrow" onclick="day--" src="./../../images/left.png">
+        <span id="dayToday"></span>. Dezember
+        <img alt="rechts" class="arrow" src="./../../images/right.png">
+    </h2>
 
 </div>
+
+
 <div class="iframe-content">
 
     <div class="gifContainer" id="gifContainer">
@@ -31,12 +30,12 @@
             Lorem ipsum dolor sit amet, consectetur adip<br>
             Lorem ipsum dolor sit amet, consectetur adip
         </p>
-        <div class="button-container">
-            <a class="spenden-button" href="#">SPENDEN</a>
-            <p>Mehr Infos</p>
-        </div>
     </div>
 
+</div>
+<div class="button-container">
+    <a class="spenden-button" href="#">SPENDEN</a>
+    <p>Mehr Infos</p>
 </div>
 </body>
 </html>

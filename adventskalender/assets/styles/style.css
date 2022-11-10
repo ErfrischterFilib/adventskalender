@@ -8,7 +8,7 @@ body {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -100,25 +100,6 @@ h3 {
 
 }
 
-.modal-header {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0;
-    grid-row-gap: 0;
-    width: 100%;
-}
-
-.modal-header-left {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.modal-header-center {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.modal-header-right {
-    grid-area: 1 / 3 / 2 / 4;
-}
 
 @media screen and (min-width: 768px) {
     .modal-content {
@@ -165,6 +146,12 @@ h3 {
         right: 0;
     }
 
+    .arrow {
+        height: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -186,12 +173,10 @@ h3 {
     .gifContainer {
         grid-area: 1 / 1 / 2 / 2;
         max-height: 100%;
-        max-width: 100%;
     }
 
     .storyContainer {
         grid-area: 2 / 1 / 3 / 2;
-        max-height: 50%;
         max-width: 100%;
     }
 
@@ -211,6 +196,11 @@ h3 {
 
     }
 
+    .arrow {
+        height: 32px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 }
 
 .iframe-content {
@@ -224,7 +214,3 @@ h3 {
     width: 100%;
     object-fit: contain;
 }
-
-
-
-
