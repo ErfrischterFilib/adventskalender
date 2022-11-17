@@ -5,7 +5,7 @@ TODO: activate when live
 let day = new Date().getDate();
 */
 
-let today = 24; // TODO: dynamic when live. see above
+let today = 2; // TODO: dynamic when live. see above
 
 console.log('Today is ' + today) //debug
 

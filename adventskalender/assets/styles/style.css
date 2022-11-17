@@ -120,7 +120,8 @@ h3 {
     }
 
     .storyText {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        line-height: 1.5;
     }
 
     .gifContainer {
@@ -181,7 +182,8 @@ h3 {
     }
 
     .storyText {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 
     .button-container {
