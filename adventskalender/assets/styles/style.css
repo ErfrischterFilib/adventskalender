@@ -98,7 +98,7 @@ h3 {
 
 @media screen and (min-width: 768px) {
     .modal-content {
-        background-color: #FCF6F5FF;
+        background-color: antiquewhite;
         margin: 2% auto;
         padding: 20px;
         width: 80%;
@@ -157,7 +157,7 @@ h3 {
 
 @media screen and (max-width: 767px) {
     .modal-content {
-        background-color: #fefefe;
+        background-color: antiquewhite;
         margin: 5% auto;
         padding: 10px;
         width: 80%;

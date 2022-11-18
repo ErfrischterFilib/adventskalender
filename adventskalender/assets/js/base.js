@@ -5,7 +5,7 @@ TODO: activate when live
 let day = new Date().getDate();
 */
 
-let today = 2; // TODO: dynamic when live. see above
+let today = 8; // TODO: dynamic when live. see above
 
 console.log('Today is ' + today) //debug
 
@@ -14,6 +14,8 @@ backgroundImage.addEventListener('load', function () {
 
     for (let i = 1; i <= today; i++) {
         let window = backgroundContent.getElementById(i);
+        window.style.cursor = 'zoom-in';
+        window.setAttribute('id', i.toString())
         window.addEventListener('click', function () {
             openModal(i)
         })
@@ -22,10 +24,8 @@ backgroundImage.addEventListener('load', function () {
 // Get the modal
 let modal = document.getElementById("modal");
 
-// Get the <span> element that closes the modal
 let span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
 function openModal(day) {
     let arrowLeft = iframe.contentDocument.getElementById("arrowLeft");
     let arrowRight = iframe.contentDocument.getElementById("arrowRight");
@@ -44,7 +44,7 @@ function openModal(day) {
         arrowLeft.style.display = "none";
     }
 
-    if (day < today) {
+    if (day < today && day < 24) {
         arrowRight.style.display = "";
         iframe.contentDocument.getElementById('arrowRight').addEventListener("click", function () {
                 openModal(day + 1)

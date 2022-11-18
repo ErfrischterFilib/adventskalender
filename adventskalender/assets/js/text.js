@@ -31,7 +31,7 @@ function getText(day) {
         case 15:
             return "Was gibt es Sch&ouml;n&rsquo;res f&uuml;r Mutter und Kind,<br />wenn Zimtstern und Brunsli angesagt sind?<br />Doch die Guetsli, am Fenster zum K&uuml;hlen,<br />kippen und fallen! Mit aufgew&uuml;hlten Gef&uuml;hlen<br />rufen die B&auml;ckerinnen, klein und gross,<br />der zuckrigen Fracht nach: &laquo;Was machen wir bloss?&raquo;"
         case 16:
-            return ">&laquo;Wir fangen sie auf!&raquo;, ruft es von unten ganz helle.<br />Zum Gl&uuml;ck ist die WG im F&uuml;nften zur Stelle. <br />Bei ihr landet ganz sicher das Fluggeb&auml;ck:<br />als Guetsliregen und feiner Snack."
+            return "&laquo;Wir fangen sie auf!&raquo;, ruft es von unten ganz helle.<br />Zum Gl&uuml;ck ist die WG im F&uuml;nften zur Stelle. <br />Bei ihr landet ganz sicher das Fluggeb&auml;ck:<br />als Guetsliregen und feiner Snack."
         case 17:
             return "Vor der and&auml;chtigen Stille, den Kerzen am Baum,<br />die Nacht durchtanzen &ndash; bis zum Morgengraun!<br />Das Bistro hat die Tische zur Seite geschoben, <br />jetzt drehen sich Paare, und sie erproben<br />Standards und lieber noch freie Figuren.<br />Auf Schwung und Hingabe, so stehen die Uhren."
         case 18:
