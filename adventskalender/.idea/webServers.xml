@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="66e32195-1dab-4502-b86c-579e4acfdb10" name="Adventskalender" url="http://vsa-beruka.cyon.net">
+        <fileTransfer rootFolder="/public_html/adventskalender" host="vsa-beruka.cyon.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
