@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="./assets/styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <title>Adventskalender</title>
     <script type="text/javascript">
-        let bgDay = 8;
+        let bgDay = 11;
         let bg = bgDay + ".svg";
     </script>
 
@@ -14,13 +17,34 @@
 <body>
 <div class="modal" id="modal">
     <div class="modal-content">
-        <span class="close">&times;</span>
-        <iframe class="dayFrame" id="iframe" src="assets/views/days/modalContent.html" title="Adventskalender"></iframe>
+        <div class="modal-header">
+            <h2>
+                <img alt="links" class="arrow" id="arrowLeft" src="./assets/images/left.png">
+                <span id="dayToday"></span>. Dezember
+                <img alt="rechts" class="arrow" id="arrowRight" src="./assets/images/right.png">
+                <span class="close">x</span>
+            </h2>
+        </div>
+        <div class="iframe-content">
+            <div class="gifContainer" id="gifContainer">
+                <img alt="Bild konnte nicht geladen werden" class="dayGif" id="dayGif"
+                     src=""/>
+            </div>
+            <div class="storyContainer">
+                <p class="storyText" id="storyText">
+                </p>
+                <button class="spenden-button bottom" type="button">SPENDEN</button>
+            </div>
+        </div>
+
     </div>
 </div>
+<button class="spenden-button float" onclick="openModal(bgDay)" type="button">Heutiges Fenster öffnen</button>
 <div class="bodyContainer">
-    <div class="backgroundcontainer">
-        <object class="backgroundimage" data="" id="background" type="image/svg+xml"></object>
+    <div class="background-container">
+        <object class="background-image" data="" id="background" type="image/svg+xml">Ihr Browser unterstützt den
+            Adventskalender nicht :(
+        </object>
     </div>
 </div>
 <script type="text/javascript">
