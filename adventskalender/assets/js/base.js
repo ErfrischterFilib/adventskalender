@@ -1,6 +1,6 @@
 let backgroundImage = document.getElementById('background');
 
-let date = new Date(2022, 11, 11);
+let date = new Date();
 let year = date.getFullYear();
 let month = date.getMonth(); // Achtung Dez = 11
 let day = date.getDate();
@@ -12,7 +12,7 @@ console.log('Today is ' + today) //debug
 let bgImage = document.getElementById('background');
 let button = document.getElementById('openToday');
 
-if (today >= 25 || year > 2022) {
+if ((today >= 25 && month === 11) || year > 2022) {
     bgImage.data = "./assets/images/bg/25.svg";
     button.style.display = 'none';
 } else if (month < 11 && year === 2022) {
@@ -49,6 +49,7 @@ function openModal(day) {
     document.getElementById('dayGif').src = "./assets/images/gifs/" + day + ".gif"
     document.getElementById('dayToday').innerHTML = day.toString()
     document.getElementById('storyText').innerHTML = getText(day);
+    window.parent.postMessage("Scroll", "https://www.reka-ferienhilfe.ch/adventskalender");
 
     if (day > 1) {
         arrowLeft.style.display = "";
